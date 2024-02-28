@@ -8,4 +8,4 @@ app.all('/', (req, res) => {
     console.log("Just got a request!")
     res.render('index')
 })
-app.listen(3000, '192.168.1.98')
+app.listen(process.env.PORT || 3000)
