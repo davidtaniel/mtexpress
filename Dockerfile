@@ -1,7 +1,7 @@
 FROM node:20-alpine
 
-COPY public  /mtexpress/
-COPY views /mtexpress/
+COPY public  /mtexpress/public/
+COPY views /mtexpress/views/
 COPY package.json /mtexpress/
 COPY index.js /mtexpress/
 
