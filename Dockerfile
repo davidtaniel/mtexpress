@@ -2,7 +2,7 @@ FROM node:20-alpine
 
 COPY public  /mtexpress/
 COPY views /mtexpress/
-COPY package.json
+COPY package.json /mtexpress/
 
 WORKDIR /mtexpress
 
